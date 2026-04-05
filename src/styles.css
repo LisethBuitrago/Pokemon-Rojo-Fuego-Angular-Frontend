@@ -1,0 +1,15 @@
+
+* {
+  font-family: 'Press Start 2P', system-ui;
+  box-sizing: border-box;
+}
+
+img {
+  image-rendering: pixelated;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(powderblue,#528594);
+}

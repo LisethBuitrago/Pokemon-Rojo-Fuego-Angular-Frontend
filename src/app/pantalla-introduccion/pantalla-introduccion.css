@@ -1,0 +1,49 @@
+.intro-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+.oak-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.marco-fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: fill;
+}
+
+.oak-sprite {
+  position: relative;
+  height: 60%;
+  width: auto;
+  z-index: 2;
+  image-rendering: pixelated;
+  transform: translateY(-60px);
+}
+
+
+.dialogo-posicion {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  z-index: 2;
+}

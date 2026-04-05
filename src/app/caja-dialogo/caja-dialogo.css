@@ -1,0 +1,29 @@
+.pokemon-dialog {
+  background-color: white;
+  border: 6px solid #bce1e5;
+  border-radius: 20px;
+  box-shadow: 0 0 0 4px #528594;
+
+  padding: 15px 30px;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.dialog-text {
+  color: #404040;
+  margin: 0;
+  line-height: 2;
+}
+
+.flecha {
+  color: #d82828;
+  margin-left: 10px;
+  display: inline-block;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  animation: parpadeo 1s infinite;
+}
+
+@keyframes parpadeo {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
